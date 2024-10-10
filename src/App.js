@@ -10,13 +10,15 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackToTopBtn from './components/BackToTopBtn';
+import ArchievementsSection from './components/ArchievementsSection';
 
 const App = () => {
   return (
   <div>
     <Header />
     <Hero />
-    <Skills />
+    <ArchievementsSection />
+    {/* <Skills /> */}
     <About />
     <Portfolio />
     <Services />
