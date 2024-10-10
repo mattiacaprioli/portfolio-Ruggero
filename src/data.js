@@ -1,16 +1,15 @@
 //  icons
 import {
   // FiYoutube,
-  FiFacebook,
   FiLinkedin,
   FiInstagram,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
+  FiUsers,
+  FiAward,
+  FiClipboard 
 } from 'react-icons/fi';
+import { FaWineGlass } from "react-icons/fa6";
 
 // projects images
 import Project1 from './assets/img/projects/findYourCity.png';
@@ -190,28 +189,28 @@ export const skills = [
 // services
 export const services = [
   {
-    icon: <FiLayout />,
-    name: 'Web Design',
+    icon: <FaWineGlass />,
+    name: 'Wine Selection',
     description:
-      'Crafting visually appealing and user-friendly web designs tailored to your needs.',
+      'Expert wine selection for restaurants, events, and private collections, ensuring the best match for every occasion.',
   },
   {
-    icon: <FiSettings />,
-    name: 'Web Development',
+    icon: <FiClipboard />,
+    name: 'Wine Consultancy',
     description:
-      'Build a robust and efficient web solutions that bring your ideas to life.',
+      'Providing professional consultancy to help businesses build exceptional wine programs and enhance their offerings.',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
+    icon: <FiUsers />,
+    name: 'Wine Tasting Events',
     description:
-      'Create an unique and impactful brand identities to make your business stand out.',
+      'Organizing and hosting guided wine tastings, offering a unique experience tailored to your audience.',
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: <FiAward />,
+    name: 'Wine Awards & Recognition',
     description:
-      'Optimizing your online presence to enhance visibility and attract more visitors.',
+      'Recognition for my expertise in the field, ensuring top-quality service and knowledge of premium wines.',
   },
 ];
 
@@ -221,12 +220,6 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at capriolimattia1994@gmail.com',
-  },
-  {
-    icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Roma, Italia',
-    description: 'Serving clients worldwide',
-  },
+    description: 'Email me at itasommwine@gmail.com',
+  }
 ];

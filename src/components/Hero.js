@@ -2,16 +2,16 @@ import React from 'react'
 import { Link } from 'react-scroll'
 
 //import man image
-import MenImg from '../assets/img/header-foto-personale.png';
+import MenImg from '../assets/img/esempio-vini.jpg';
 
 const Hero = () => {
   return (
     <section id='home' className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
       <div className='container mx-auto h-full lg:mt-10'>
-        <div className='flex items-center h-full pt-8'>
+        <div className='flex items-center h-full pt-10'>
           {/* left side */}
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={MenImg} className='opacity-75' alt='' />
+          <div className='hidden lg:flex flex-1 justify-end items-center h-full'>
+            <img src={MenImg} className='opacity-75 rounded-2xl' alt='' />
           </div>
           {/* right side DA DOVER SISTEMARE LA FOTO CON UNA PERSONALE!*/}
           

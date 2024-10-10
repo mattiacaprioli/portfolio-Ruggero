@@ -20,7 +20,7 @@ const Header = () => {
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
         <Link to="home" spy={true} smooth={true} duration={500} >
-            <img className='h-14' src={Logo} alt=''/>
+        <h1 className='text-4xl leading-[44px] font-bold'>Ruggero</h1>
         </Link>
         {/* nav */}
         <div className='hidden lg:block'>

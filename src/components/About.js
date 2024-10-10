@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 
 // import image
-import Image from '../assets/img/foto-pc.jpg'
+import Image from '../assets/img/esempio2-vini.jpg'
 
 function About() {
   return (
