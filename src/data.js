@@ -4,7 +4,7 @@ import {
   FiLinkedin,
   FiInstagram,
   FiMail,
-  FiMapPin,
+  // FiMapPin,
   FiUsers,
   FiAward,
   FiClipboard 

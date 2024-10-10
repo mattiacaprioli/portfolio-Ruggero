@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-scroll'
 
-import Logo from '../assets/img/Logo-Mattia.png';
+// import Logo from '../assets/img/Logo-Mattia.png';
 import Navbar from './Navbar';
 import NavMobile from './NavMobile';
 import Socials from './Socials';
