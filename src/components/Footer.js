@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             {/* copyright */}
-            <p>&copy; 2023 Mattia Caprioli. All right reserved.</p>
+            <p>&copy; 2024 Ruggero. All right reserved.</p>
         </div>
       </div>
     </footer>

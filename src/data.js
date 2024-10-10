@@ -4,7 +4,6 @@ import {
   FiFacebook,
   FiLinkedin,
   FiInstagram,
-  FiGithub,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -61,10 +60,6 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiGithub />,
-    href: 'https://github.com/mattiacaprioli',
-  },
-  {
     icon: <FiLinkedin />,
     href: 'https://www.linkedin.com/in/mattia-caprioli/',
   },
@@ -72,10 +67,10 @@ export const social = [
     icon: <FiInstagram />,
     href: 'https://www.instagram.com/mattiacaprioli/?igshid=YmMyMTA2M2Y%3D',
   },
-  {
-    icon: <FiFacebook />,
-    href: 'https://www.facebook.com/mattia.caprioli',
-  },
+  // {
+  //   icon: <FiFacebook />,
+  //   href: 'https://www.facebook.com/mattia.caprioli',
+  // },
 ];
 
 // projects
