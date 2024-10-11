@@ -1,16 +1,11 @@
 import React from "react";
-
-const timelineData = [
-  { year: "2024", title: "Best Sommelier Award", description: "Recognized as Best Sommelier at the International Wine Awards.", align: "left" },
-  { year: "2023", title: "Wine Consultant", description: "Consulted for Michelin-starred restaurants to refine their wine selections.", align: "right" },
-  { year: "2022", title: "Wine Tasting Event", description: "Hosted exclusive wine tasting events in collaboration with top wineries.", align: "left" },
-  { year: "2021", title: "Sommelier Certification", description: "Achieved advanced sommelier certification from AIS.", align: "right" },
-];
+import TimelineSectionMoblie from "./TimelineSectionMoblie";
+import { timelineData } from "../data";
 
 const TimelineSection = () => {
   return (
-    <section id='experience' className='section bg-primary min-h-[1000px]'>
-      <div className='flex flex-col items-center text-center'>
+    <section id='experience' className='section bg-primary'>
+      <div className='container flex flex-col items-center text-center'>
         <h2 className='section-title before:content-experience relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
           My Journey
         </h2>
@@ -18,7 +13,12 @@ const TimelineSection = () => {
           Here is a glimpse of my experience and milestones as a sommelier.
         </p>
       </div>
-      <div className="relative max-w-7xl mx-auto px-0 lg:px-8">
+
+      <div className="lg:hidden">
+        <TimelineSectionMoblie />
+      </div>
+
+      <div className="hidden lg:block relative max-w-7xl mx-auto px-0 lg:px-8">
         {/* Linea centrale */}
         <div className="border-l-4 border-accent absolute h-full left-1/2 transform -translate-x-1/2"></div>
 

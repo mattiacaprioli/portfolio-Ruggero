@@ -76,6 +76,14 @@ export const social = [
   // },
 ];
 
+// experience
+export const timelineData = [
+  { year: "2024", title: "Best Sommelier Award", description: "Recognized as Best Sommelier at the International Wine Awards.", align: "left" },
+  { year: "2023", title: "Wine Consultant", description: "Consulted for Michelin-starred restaurants to refine their wine selections.", align: "right" },
+  { year: "2022", title: "Wine Tasting Event", description: "Hosted exclusive wine tasting events in collaboration with top wineries.", align: "left" },
+  { year: "2021", title: "Sommelier Certification", description: "Achieved advanced sommelier certification from AIS.", align: "right" },
+];
+
 // projects
 export const projectsData = [
   {
