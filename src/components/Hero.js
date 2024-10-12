@@ -1,15 +1,33 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import { useTranslation } from 'react-i18next';
 
 //import man image
 import MenImg from '../assets/img/esempio-vini.jpg';
 
 const Hero = () => {
+
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  }
+
   return (
     <section id='home' className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
       <div className='container mx-auto h-full lg:mt-10'>
         <div className='flex items-center h-full pt-10'>
           {/* left side */}
+
+          {/* Prova per traduzione!!!! */}
+          <div>
+            <h1>{t('hello')}</h1>
+            <button onClick={() => changeLanguage('en')}>English</button>
+            <button onClick={() => changeLanguage('fr')}>Français</button>
+            <button onClick={() => changeLanguage('it')}>Italiano</button>
+          </div>
+
+
           <div className='hidden lg:flex flex-1 justify-end items-center h-full'>
             <img src={MenImg} className='opacity-75 rounded-2xl' alt='' />
           </div>
