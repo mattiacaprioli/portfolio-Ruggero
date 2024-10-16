@@ -5,6 +5,7 @@ import { Link } from 'react-scroll'
 import Navbar from './Navbar';
 import NavMobile from './NavMobile';
 import Socials from './Socials';
+import LanguageSelect from './LanguageSelect';
 
 const Header = () => {
   const [bg, setBg] = useState(false)
@@ -26,8 +27,9 @@ const Header = () => {
         <div className='hidden lg:block'>
             <Navbar />
         </div>
-        {/* socials */}
-        <div className='hidden lg:block'>
+        {/* socials and languages */}
+        <div className='hidden lg:flex flex-row'>
+            <LanguageSelect />
             <Socials />
         </div>
         {/* nav mobile */}
