@@ -65,6 +65,7 @@ export default function LanguageSelect() {
               onClick={() => changeLanguage(code)}
               key={name}
               role="option"
+              aria-selected={i18n.language === code}
               className="pt-[9px] pb-2 px-3 rounded-md leading-tight cursor-pointer select-none hover:bg-blue-gray-50 focus:bg-blue-gray-50 hover:text-blue-gray-900 transition-all"
             >
               {name}
