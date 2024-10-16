@@ -6,6 +6,7 @@ import {navigation} from '../data';
 // import icons
 import {XIcon} from '@heroicons/react/outline';
 import {MenuAlt3Icon} from '@heroicons/react/outline';
+import LanguageSelect from './LanguageSelect';
 
 // import framer motion
 import { motion } from 'framer-motion';
@@ -45,9 +46,10 @@ const NavMobile = () => {
   
 
   return (
-    <nav className='relative'>
+    <nav className='relative flex items-center'>
       {/* menu icon */}
-      <div onClick={() => setIsOpen(true)} className='cursor-pointer text-white'>
+      <LanguageSelect />
+      <div onClick={() => setIsOpen(true)} className='cursor-pointer text-white pl-2'>
         <MenuAlt3Icon className='w-8 h-8 '/>
       </div>
 
