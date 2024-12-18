@@ -1,4 +1,4 @@
-Professional Sommelier Website
+## Professional Sommelier Website
 
 Description
 
@@ -28,14 +28,12 @@ Styling: Tailwind CSS for responsive and modern UI design.
 
 Routing: React Router for seamless navigation.
 
-Backend: (Optional) API integration for dynamic content.
-
-Deployment: Hosted on a platform like Netlify or Vercel.
+Deployment: Hosted on a platform like Netlify.
 
 Installation
 
 # Clone the repository
-git clone https://github.com/username/sommelier-website.git
+git clone ...
 cd sommelier-website
 
 # Install dependencies
@@ -43,9 +41,6 @@ npm install
 
 # Start the development server
 npm run dev
-
-# Open the app in your browser
-# http://localhost:5173
 
 Scripts
 
@@ -68,7 +63,7 @@ This project is a custom solution and not open for external contributions at the
 
 Acknowledgments
 
-Special thanks to my friend [Your Friend's Name] for their trust and collaboration in this project. Their passion for wine and professionalism inspired the design and content.
+Special thanks to my friend for their trust and collaboration in this project. Their passion for wine and professionalism inspired the design and content.
 
 License
 
