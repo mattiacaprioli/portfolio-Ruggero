@@ -1,38 +1,75 @@
-﻿# Hi there! 👋🏻 I'm Mattia
+Professional Sommelier Website
 
-💾 Junior Front End Developer from Como, Italy 🍇 💻
+Description
 
-📝 Check out my Portfolio here: [https://mattiacaprioliportfolio.netlify.app/](https://mattiacaprioliportfolio.netlify.app/) 👈🏻
+This project is a professional website for a sommelier to showcase their expertise, services, and passion for wine. The site is tailored to highlight the sommelier's skills, certifications, and experience, while providing an elegant and modern user experience.
 
-🚀 My skills: 
+Features
 
-- HTML
-- CSS
-- JavaScript
-- React.js
-- React-Native
-- Redux
-- Next.js
-- Bootstrap
-- SASS
-- Tailwind
-- TypeScript
-- Git
-- Github
+Home Page: A visually appealing landing page introducing the sommelier and their philosophy.
 
-... and still learning more! 💡✨
+About Section: Detailed biography, certifications, and career highlights.
 
----
+Services Page: Comprehensive list of services offered, including wine tastings, consultations, and events.
 
-🇬🇧  
-I am a junior frontend web developer. I have a deep understanding of **HTML**, **CSS**, and **JavaScript**, as well as extensive experience using frameworks like **React.js**. I have demonstrated the ability to individually work on complex projects, quickly adapt to new technologies, and effectively collaborate with multidisciplinary teams. My linguistic experience has provided me with a unique perspective on the importance of intuitive design and a seamless user experience. I am passionate about the idea of transforming complex concepts into accessible and user-friendly solutions, leveraging my creativity to create websites that are not only aesthetically pleasing but also functional and effective, thanks to the use of libraries and preprocessors like **Bootstrap** and **SASS**.
+Portfolio: Showcase of past events, reviews, and successful collaborations.
 
-🇮🇹  
-*Sono una frontend web developer. Ho una conoscenza approfondita di **HTML**, **CSS** e **JavaScript**, oltre a una vasta esperienza nell'utilizzo di framework come **React.js**. Ho dimostrato capacità di lavorare su progetti complessi, adattarmi rapidamente alle nuove tecnologie e collaborare in modo efficace con team multidisciplinari. La mia esperienza linguistica mi ha fornito una prospettiva unica nel comprendere l'importanza di un design intuitivo e di un'esperienza utente fluida: mi appassiona l'idea di poter trasformare concetti complessi in soluzioni accessibili e user-friendly, mettendo in pratica la mia creatività per creare siti web che non solo siano esteticamente piacevoli, ma anche funzionali ed efficaci, grazie anche all’impiego di librerie e preprocessori come **Bootstrap** e **SASS**.*
+Contact Form: Easy-to-use form for visitors to get in touch.
 
----
+Responsive Design: Optimized for desktop, tablet, and mobile devices.
 
-You can reach me out here:
+Multilingual Support: Available in multiple languages to cater to a global audience.
 
-- 💼 LinkedIn: [https://www.linkedin.com/in/mattia-caprioli/](https://www.linkedin.com/in/mattia-caprioli/)
-- 📮 E-mail: [capriolimattia1994@gmail.com](mailto:capriolimattia1994@gmail.com)
+Technologies Used
+
+Frontend: React with Vite for fast development.
+
+Styling: Tailwind CSS for responsive and modern UI design.
+
+Routing: React Router for seamless navigation.
+
+Backend: (Optional) API integration for dynamic content.
+
+Deployment: Hosted on a platform like Netlify or Vercel.
+
+Installation
+
+# Clone the repository
+git clone https://github.com/username/sommelier-website.git
+cd sommelier-website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+# Open the app in your browser
+# http://localhost:5173
+
+Scripts
+
+npm run dev: Start the development server.
+
+npm run build: Build the project for production.
+
+npm run preview: Preview the production build locally.
+
+Deployment
+
+# Build the project
+npm run build
+
+# Deploy the contents of the `dist` folder to your hosting provider (e.g., Netlify, Vercel, or another service)
+
+Contributing
+
+This project is a custom solution and not open for external contributions at the moment. If you have suggestions or ideas, feel free to contact me.
+
+Acknowledgments
+
+Special thanks to my friend [Your Friend's Name] for their trust and collaboration in this project. Their passion for wine and professionalism inspired the design and content.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
